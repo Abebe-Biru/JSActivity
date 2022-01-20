@@ -1,0 +1,117 @@
+function Clear() {
+    window.alert("It is cleared now. Please write again from the beginning");
+}
+
+function Alert() {
+    window.alert("Make sure you have filled the form appropriately.");
+}
+
+function S() {
+    document.write("The form you have filled submitted successfully.")
+}
+
+function myForm() {
+    document.getElementById("form").style.backgroundColor = "green";
+}
+
+function myForm0() {
+    document.getElementById("form").style.backgroundColor = "white";
+}
+
+function myForm20() {
+    document.getElementById("form").style.backgroundColor = "rgb(223, 201, 146)";
+}
+
+
+function myForm1() {
+    document.getElementById("form").style.backgroundColor = "black";
+}
+
+function myForm2() {
+    document.getElementById("form").style.fontSize = "25px";
+}
+
+function myForm3() {
+    document.getElementById("form").style.fontSize = "11px";
+}
+
+function myForm4() {
+    document.getElementById("form").style.fontSize = "16px";
+}
+
+function myForm5() {
+    document.getElementById("form").style.color = "green";
+}
+
+function myForm6() {
+    document.getElementById("form").style.color = "orange";
+}
+
+function myForm7() {
+    document.getElementById("form").style.color = "white";
+}
+
+function myForm8() {
+    document.getElementById("form").style.color = "black";
+}
+
+function myForm9() {
+    document.getElementById("form").style.fontFamily = "monospace";
+}
+
+function myForm10() {
+    document.getElementById("form").style.fontFamily = "Verdana";
+}
+
+function myForm11() {
+    document.getElementById("form").style.fontFamily = "Arial";
+}
+
+function myForm12() {
+    document.getElementById("form").style.fontFamily = "Helvatica";
+}
+
+function fdBack() {
+    window.confirm("Did you check all the place,please?");
+}
+
+function fdBack1() {
+    document.write("Thank for your feedback.");
+}
+
+function styleHome() {
+    document.getElementById("hire").style.color = "red";
+}
+
+function styleHome1() {
+    document.getElementById("hire").style.color = "black";
+}
+
+function homeMode() {
+    document.getElementById("bdy").style.backgroundColor = "black";
+    document.getElementById("bdy").style.color = "white";
+    document.getElementById("nav").src = "/img/black.png"
+}
+
+function homeMode1() {
+    document.getElementById("bdy").style.backgroundColor = "white";
+    document.getElementById("bdy").style.color = "black";
+    document.getElementById("nav").src = "/img/white.png"
+}
+
+function homeMode3() {
+    document.getElementById("bdy").style.backgroundColor = "rgb(223, 201, 146)";
+    document.getElementById("bdy").style.color = "black";
+    document.getElementById("nav").src = "/img/normal.png";
+
+}
+
+function bulb() {
+    document.getElementById("nav").src = "/img/on1.png";
+    document.getElementById("bdy").style.backgroundColor = "rgba(29, 28, 28, 0.767)";
+}
+
+function bulb1() {
+    document.getElementById("nav").src = "/img/off.png";
+    document.getElementById("bdy").style.backgroundColor = "black";
+}
